@@ -2,8 +2,8 @@
 #pragma once
 
 
-SDL_Texture* pieceTile = NULL;
-SDL_Rect pieceTileSrc;
+extern SDL_Texture* pieceTile;
+extern SDL_Rect pieceTileSrc;
 
 int LoadImages(SDL_Renderer* renderer);
 

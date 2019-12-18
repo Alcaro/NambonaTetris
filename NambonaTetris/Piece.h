@@ -1,8 +1,8 @@
 #include <Global.h>
 #pragma once
 
-static float fallTimer = 0;
-static float fallWait = 0.5;
+extern float fallTimer;
+extern float fallWait;
 
 int PieceInit();
 

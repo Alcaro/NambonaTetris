@@ -1,5 +1,8 @@
 #include <Screen.h>
 
+SDL_Texture* pieceTile = NULL;
+SDL_Rect pieceTileSrc;
+
 int LoadImages(SDL_Renderer* renderer)
 {
 	pieceTile = IMG_LoadTexture(renderer,"Images/Piece.png");
